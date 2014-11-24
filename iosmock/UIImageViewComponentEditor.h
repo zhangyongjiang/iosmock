@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Kevin Zhang. All rights reserved.
 //
 
-#import "UIViewComponentEditor.h"
+#import "UIViewEditor.h"
 
-@interface UIImageViewComponentEditor : UIViewComponentEditor
+@interface UIImageViewComponentEditor : UIViewEditor
 
 @end

@@ -15,11 +15,19 @@
 		A34E825A1A21BE2F0075AB33 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34E82581A21BE2F0075AB33 /* LaunchScreen.xib */; };
 		A34E82661A21BE2F0075AB33 /* iosmockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A34E82651A21BE2F0075AB33 /* iosmockTests.m */; };
 		A34E829A1A237A5F0075AB33 /* ComponentEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = A34E82991A237A5F0075AB33 /* ComponentEditor.m */; };
-		A34E829D1A237A870075AB33 /* UIViewComponentEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = A34E829C1A237A870075AB33 /* UIViewComponentEditor.m */; };
+		A34E829D1A237A870075AB33 /* UIViewEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = A34E829C1A237A870075AB33 /* UIViewEditor.m */; };
 		A34E82A01A237ACE0075AB33 /* LabelComponentEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = A34E829F1A237ACE0075AB33 /* LabelComponentEditor.m */; };
 		A34E82A31A237AF90075AB33 /* TextFieldComponentEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = A34E82A21A237AF90075AB33 /* TextFieldComponentEditor.m */; };
 		A34E82A61A237B2C0075AB33 /* UIImageViewComponentEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = A34E82A51A237B2C0075AB33 /* UIImageViewComponentEditor.m */; };
 		A34E82A91A237B420075AB33 /* UIButtonComponentEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = A34E82A81A237B420075AB33 /* UIButtonComponentEditor.m */; };
+		A34E82AC1A237D230075AB33 /* AttributeEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = A34E82AB1A237D230075AB33 /* AttributeEditor.m */; };
+		A34E82AF1A237D940075AB33 /* IntegerAttributeEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = A34E82AE1A237D940075AB33 /* IntegerAttributeEditor.m */; };
+		A34E82B21A237E210075AB33 /* Component.m in Sources */ = {isa = PBXBuildFile; fileRef = A34E82B11A237E210075AB33 /* Component.m */; };
+		A3BD933D1A238D3800FA6438 /* Subcomponent.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BD933C1A238D3800FA6438 /* Subcomponent.m */; };
+		A3BD93401A238DC800FA6438 /* DerivedComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BD933F1A238DC800FA6438 /* DerivedComponent.m */; };
+		A3BD93431A23931A00FA6438 /* Attribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BD93421A23931A00FA6438 /* Attribute.m */; };
+		A3BD93461A2394F400FA6438 /* ViewPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BD93451A2394F400FA6438 /* ViewPosition.m */; };
+		A3BD93491A23A14000FA6438 /* ViewNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BD93481A23A14000FA6438 /* ViewNumber.m */; };
 		AA329151FCBEFA990117A14E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A3CCDFF04CF22642DB2F00 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -52,8 +60,8 @@
 		A34E82761A2240BC0075AB33 /* iosmock.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosmock.pch; sourceTree = "<group>"; };
 		A34E82981A237A5F0075AB33 /* ComponentEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentEditor.h; sourceTree = "<group>"; };
 		A34E82991A237A5F0075AB33 /* ComponentEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentEditor.m; sourceTree = "<group>"; };
-		A34E829B1A237A870075AB33 /* UIViewComponentEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewComponentEditor.h; sourceTree = "<group>"; };
-		A34E829C1A237A870075AB33 /* UIViewComponentEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewComponentEditor.m; sourceTree = "<group>"; };
+		A34E829B1A237A870075AB33 /* UIViewEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewEditor.h; sourceTree = "<group>"; };
+		A34E829C1A237A870075AB33 /* UIViewEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewEditor.m; sourceTree = "<group>"; };
 		A34E829E1A237ACE0075AB33 /* LabelComponentEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelComponentEditor.h; sourceTree = "<group>"; };
 		A34E829F1A237ACE0075AB33 /* LabelComponentEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelComponentEditor.m; sourceTree = "<group>"; };
 		A34E82A11A237AF90075AB33 /* TextFieldComponentEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldComponentEditor.h; sourceTree = "<group>"; };
@@ -62,6 +70,22 @@
 		A34E82A51A237B2C0075AB33 /* UIImageViewComponentEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageViewComponentEditor.m; sourceTree = "<group>"; };
 		A34E82A71A237B420075AB33 /* UIButtonComponentEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonComponentEditor.h; sourceTree = "<group>"; };
 		A34E82A81A237B420075AB33 /* UIButtonComponentEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonComponentEditor.m; sourceTree = "<group>"; };
+		A34E82AA1A237D230075AB33 /* AttributeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributeEditor.h; sourceTree = "<group>"; };
+		A34E82AB1A237D230075AB33 /* AttributeEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributeEditor.m; sourceTree = "<group>"; };
+		A34E82AD1A237D940075AB33 /* IntegerAttributeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegerAttributeEditor.h; sourceTree = "<group>"; };
+		A34E82AE1A237D940075AB33 /* IntegerAttributeEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegerAttributeEditor.m; sourceTree = "<group>"; };
+		A34E82B01A237E210075AB33 /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
+		A34E82B11A237E210075AB33 /* Component.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Component.m; sourceTree = "<group>"; };
+		A3BD933B1A238D3800FA6438 /* Subcomponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subcomponent.h; sourceTree = "<group>"; };
+		A3BD933C1A238D3800FA6438 /* Subcomponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subcomponent.m; sourceTree = "<group>"; };
+		A3BD933E1A238DC800FA6438 /* DerivedComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DerivedComponent.h; sourceTree = "<group>"; };
+		A3BD933F1A238DC800FA6438 /* DerivedComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DerivedComponent.m; sourceTree = "<group>"; };
+		A3BD93411A23931A00FA6438 /* Attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attribute.h; sourceTree = "<group>"; };
+		A3BD93421A23931A00FA6438 /* Attribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attribute.m; sourceTree = "<group>"; };
+		A3BD93441A2394F400FA6438 /* ViewPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPosition.h; sourceTree = "<group>"; };
+		A3BD93451A2394F400FA6438 /* ViewPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPosition.m; sourceTree = "<group>"; };
+		A3BD93471A23A14000FA6438 /* ViewNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewNumber.h; sourceTree = "<group>"; };
+		A3BD93481A23A14000FA6438 /* ViewNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewNumber.m; sourceTree = "<group>"; };
 		C2841A3ACB22C29BF161446E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +148,7 @@
 		A34E82481A21BE2F0075AB33 /* iosmock */ = {
 			isa = PBXGroup;
 			children = (
+				A34E82B31A237EDB0075AB33 /* Component */,
 				A34E824D1A21BE2F0075AB33 /* AppDelegate.h */,
 				A34E824E1A21BE2F0075AB33 /* AppDelegate.m */,
 				A34E82501A21BE2F0075AB33 /* ViewController.h */,
@@ -134,8 +159,8 @@
 				A34E82491A21BE2F0075AB33 /* Supporting Files */,
 				A34E82981A237A5F0075AB33 /* ComponentEditor.h */,
 				A34E82991A237A5F0075AB33 /* ComponentEditor.m */,
-				A34E829B1A237A870075AB33 /* UIViewComponentEditor.h */,
-				A34E829C1A237A870075AB33 /* UIViewComponentEditor.m */,
+				A34E829B1A237A870075AB33 /* UIViewEditor.h */,
+				A34E829C1A237A870075AB33 /* UIViewEditor.m */,
 				A34E829E1A237ACE0075AB33 /* LabelComponentEditor.h */,
 				A34E829F1A237ACE0075AB33 /* LabelComponentEditor.m */,
 				A34E82A11A237AF90075AB33 /* TextFieldComponentEditor.h */,
@@ -144,6 +169,14 @@
 				A34E82A51A237B2C0075AB33 /* UIImageViewComponentEditor.m */,
 				A34E82A71A237B420075AB33 /* UIButtonComponentEditor.h */,
 				A34E82A81A237B420075AB33 /* UIButtonComponentEditor.m */,
+				A34E82AA1A237D230075AB33 /* AttributeEditor.h */,
+				A34E82AB1A237D230075AB33 /* AttributeEditor.m */,
+				A34E82AD1A237D940075AB33 /* IntegerAttributeEditor.h */,
+				A34E82AE1A237D940075AB33 /* IntegerAttributeEditor.m */,
+				A3BD93441A2394F400FA6438 /* ViewPosition.h */,
+				A3BD93451A2394F400FA6438 /* ViewPosition.m */,
+				A3BD93471A23A14000FA6438 /* ViewNumber.h */,
+				A3BD93481A23A14000FA6438 /* ViewNumber.m */,
 			);
 			path = iosmock;
 			sourceTree = "<group>";
@@ -173,6 +206,22 @@
 				A34E82641A21BE2F0075AB33 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A34E82B31A237EDB0075AB33 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				A34E82B01A237E210075AB33 /* Component.h */,
+				A34E82B11A237E210075AB33 /* Component.m */,
+				A3BD933B1A238D3800FA6438 /* Subcomponent.h */,
+				A3BD933C1A238D3800FA6438 /* Subcomponent.m */,
+				A3BD933E1A238DC800FA6438 /* DerivedComponent.h */,
+				A3BD933F1A238DC800FA6438 /* DerivedComponent.m */,
+				A3BD93411A23931A00FA6438 /* Attribute.h */,
+				A3BD93421A23931A00FA6438 /* Attribute.m */,
+			);
+			name = Component;
+			path = component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,14 +360,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				A34E82521A21BE2F0075AB33 /* ViewController.m in Sources */,
+				A3BD933D1A238D3800FA6438 /* Subcomponent.m in Sources */,
 				A34E82A01A237ACE0075AB33 /* LabelComponentEditor.m in Sources */,
+				A3BD93491A23A14000FA6438 /* ViewNumber.m in Sources */,
 				A34E824F1A21BE2F0075AB33 /* AppDelegate.m in Sources */,
 				A34E829A1A237A5F0075AB33 /* ComponentEditor.m in Sources */,
+				A3BD93401A238DC800FA6438 /* DerivedComponent.m in Sources */,
 				A34E824C1A21BE2F0075AB33 /* main.m in Sources */,
 				A34E82A61A237B2C0075AB33 /* UIImageViewComponentEditor.m in Sources */,
 				A34E82A31A237AF90075AB33 /* TextFieldComponentEditor.m in Sources */,
+				A3BD93461A2394F400FA6438 /* ViewPosition.m in Sources */,
+				A34E82AF1A237D940075AB33 /* IntegerAttributeEditor.m in Sources */,
 				A34E82A91A237B420075AB33 /* UIButtonComponentEditor.m in Sources */,
-				A34E829D1A237A870075AB33 /* UIViewComponentEditor.m in Sources */,
+				A34E82B21A237E210075AB33 /* Component.m in Sources */,
+				A34E829D1A237A870075AB33 /* UIViewEditor.m in Sources */,
+				A34E82AC1A237D230075AB33 /* AttributeEditor.m in Sources */,
+				A3BD93431A23931A00FA6438 /* Attribute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

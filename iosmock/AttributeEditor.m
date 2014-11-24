@@ -1,14 +1,14 @@
 //
-//  UIViewComponentEditor.m
+//  AttributeEditor.m
 //  iosmock
 //
 //  Created by Kevin Zhang on 11/24/14.
 //  Copyright (c) 2014 Kevin Zhang. All rights reserved.
 //
 
-#import "UIViewComponentEditor.h"
+#import "AttributeEditor.h"
 
-@implementation UIViewComponentEditor
+@implementation AttributeEditor
 
 /*
 // Only override drawRect: if you perform custom drawing.
