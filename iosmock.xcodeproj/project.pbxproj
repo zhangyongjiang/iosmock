@@ -14,6 +14,12 @@
 		A34E82571A21BE2F0075AB33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34E82561A21BE2F0075AB33 /* Images.xcassets */; };
 		A34E825A1A21BE2F0075AB33 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34E82581A21BE2F0075AB33 /* LaunchScreen.xib */; };
 		A34E82661A21BE2F0075AB33 /* iosmockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A34E82651A21BE2F0075AB33 /* iosmockTests.m */; };
+		A34E829A1A237A5F0075AB33 /* ComponentEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = A34E82991A237A5F0075AB33 /* ComponentEditor.m */; };
+		A34E829D1A237A870075AB33 /* UIViewComponentEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = A34E829C1A237A870075AB33 /* UIViewComponentEditor.m */; };
+		A34E82A01A237ACE0075AB33 /* LabelComponentEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = A34E829F1A237ACE0075AB33 /* LabelComponentEditor.m */; };
+		A34E82A31A237AF90075AB33 /* TextFieldComponentEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = A34E82A21A237AF90075AB33 /* TextFieldComponentEditor.m */; };
+		A34E82A61A237B2C0075AB33 /* UIImageViewComponentEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = A34E82A51A237B2C0075AB33 /* UIImageViewComponentEditor.m */; };
+		A34E82A91A237B420075AB33 /* UIButtonComponentEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = A34E82A81A237B420075AB33 /* UIButtonComponentEditor.m */; };
 		AA329151FCBEFA990117A14E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A3CCDFF04CF22642DB2F00 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +50,18 @@
 		A34E82641A21BE2F0075AB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A34E82651A21BE2F0075AB33 /* iosmockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosmockTests.m; sourceTree = "<group>"; };
 		A34E82761A2240BC0075AB33 /* iosmock.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosmock.pch; sourceTree = "<group>"; };
+		A34E82981A237A5F0075AB33 /* ComponentEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentEditor.h; sourceTree = "<group>"; };
+		A34E82991A237A5F0075AB33 /* ComponentEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentEditor.m; sourceTree = "<group>"; };
+		A34E829B1A237A870075AB33 /* UIViewComponentEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewComponentEditor.h; sourceTree = "<group>"; };
+		A34E829C1A237A870075AB33 /* UIViewComponentEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewComponentEditor.m; sourceTree = "<group>"; };
+		A34E829E1A237ACE0075AB33 /* LabelComponentEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelComponentEditor.h; sourceTree = "<group>"; };
+		A34E829F1A237ACE0075AB33 /* LabelComponentEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelComponentEditor.m; sourceTree = "<group>"; };
+		A34E82A11A237AF90075AB33 /* TextFieldComponentEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldComponentEditor.h; sourceTree = "<group>"; };
+		A34E82A21A237AF90075AB33 /* TextFieldComponentEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldComponentEditor.m; sourceTree = "<group>"; };
+		A34E82A41A237B2C0075AB33 /* UIImageViewComponentEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageViewComponentEditor.h; sourceTree = "<group>"; };
+		A34E82A51A237B2C0075AB33 /* UIImageViewComponentEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageViewComponentEditor.m; sourceTree = "<group>"; };
+		A34E82A71A237B420075AB33 /* UIButtonComponentEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonComponentEditor.h; sourceTree = "<group>"; };
+		A34E82A81A237B420075AB33 /* UIButtonComponentEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonComponentEditor.m; sourceTree = "<group>"; };
 		C2841A3ACB22C29BF161446E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +132,18 @@
 				A34E82561A21BE2F0075AB33 /* Images.xcassets */,
 				A34E82581A21BE2F0075AB33 /* LaunchScreen.xib */,
 				A34E82491A21BE2F0075AB33 /* Supporting Files */,
+				A34E82981A237A5F0075AB33 /* ComponentEditor.h */,
+				A34E82991A237A5F0075AB33 /* ComponentEditor.m */,
+				A34E829B1A237A870075AB33 /* UIViewComponentEditor.h */,
+				A34E829C1A237A870075AB33 /* UIViewComponentEditor.m */,
+				A34E829E1A237ACE0075AB33 /* LabelComponentEditor.h */,
+				A34E829F1A237ACE0075AB33 /* LabelComponentEditor.m */,
+				A34E82A11A237AF90075AB33 /* TextFieldComponentEditor.h */,
+				A34E82A21A237AF90075AB33 /* TextFieldComponentEditor.m */,
+				A34E82A41A237B2C0075AB33 /* UIImageViewComponentEditor.h */,
+				A34E82A51A237B2C0075AB33 /* UIImageViewComponentEditor.m */,
+				A34E82A71A237B420075AB33 /* UIButtonComponentEditor.h */,
+				A34E82A81A237B420075AB33 /* UIButtonComponentEditor.m */,
 			);
 			path = iosmock;
 			sourceTree = "<group>";
@@ -281,8 +311,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A34E82521A21BE2F0075AB33 /* ViewController.m in Sources */,
+				A34E82A01A237ACE0075AB33 /* LabelComponentEditor.m in Sources */,
 				A34E824F1A21BE2F0075AB33 /* AppDelegate.m in Sources */,
+				A34E829A1A237A5F0075AB33 /* ComponentEditor.m in Sources */,
 				A34E824C1A21BE2F0075AB33 /* main.m in Sources */,
+				A34E82A61A237B2C0075AB33 /* UIImageViewComponentEditor.m in Sources */,
+				A34E82A31A237AF90075AB33 /* TextFieldComponentEditor.m in Sources */,
+				A34E82A91A237B420075AB33 /* UIButtonComponentEditor.m in Sources */,
+				A34E829D1A237A870075AB33 /* UIViewComponentEditor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
